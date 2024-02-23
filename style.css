@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos do Header */
+header {
+    background-color: #ffcc99;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    color: #663300;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #663300;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #996633;
+}
+
+/* Estilos do Banner */
+.banner {
+    background-image: url('./Imagens/Dinter.png');
+    background-size: cover;
+    padding: 100px 0;
+    color: #000000;
+    text-align: center;
+}
+
+.banner h2 {
+    margin-bottom: 20px;
+}
+
+/* Estilos da Seção Sobre */
+.sobre {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.sobre h2 {
+    margin-bottom: 20px;
+    color: #663300;
+}
+
+.sobre p {
+    color: #666;
+}
+
+/* Estilos da Galeria */
+.galeria {
+    padding: 50px 0;
+}
+
+.galeria h2 {
+    text-align: center;
+    color: #663300;
+    margin-bottom: 20px;
+}
+
+.galeria-de-imagens {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.galeria-de-imagens img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+/* Estilos do Footer */
+footer {
+    background-color: #ffcc99;
+    padding: 7px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #663300;
+}
