@@ -18,13 +18,15 @@ body {
 
 /* Estilos do Header */
 header {
-    background-color: #ffcc99;
+    background-color: rgb(152, 174, 202);
     padding: 20px 0;
 }
 
 header h1 {
     text-align: center;
-    color: #663300;
+    color: rgb(64, 64, 64);
+    font-size: 35px;
+    margin-bottom: 7px;
 }
 
 nav ul {
@@ -39,8 +41,9 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #663300;
+    color: rgb(64, 64, 64);
     font-weight: bold;
+    padding: 5px;
 }
 
 nav ul li a:hover {
@@ -69,7 +72,7 @@ nav ul li a:hover {
 
 .sobre h2 {
     margin-bottom: 20px;
-    color: #663300;
+    color: rgb(64, 64, 64);
 }
 
 .sobre p {
@@ -83,7 +86,7 @@ nav ul li a:hover {
 
 .galeria h2 {
     text-align: center;
-    color: #663300;
+    color: rgb(64, 64, 64);
     margin-bottom: 20px;
 }
 
@@ -101,7 +104,7 @@ nav ul li a:hover {
 
 /* Estilos do Footer */
 footer {
-    background-color: #ffcc99;
+    background-color: rgb(152, 174, 202);
     padding: 7px 0;
     text-align: center;
     position: fixed;
@@ -110,5 +113,5 @@ footer {
 }
 
 footer p {
-    color: #663300;
+    color: rgb(64, 64, 64);
 }
