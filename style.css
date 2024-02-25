@@ -27,6 +27,7 @@ header h1 {
     color: rgb(64, 64, 64);
     font-size: 35px;
     margin-bottom: 7px;
+    font-family: sans-serif;
 }
 
 nav ul {
@@ -54,7 +55,7 @@ nav ul li a:hover {
 .banner {
     background-image: url('./Imagens/banner.png');
     background-size: cover;
-    padding: 100px 0;
+    padding: 60px 0;
     color: #000000;
     text-align: center;
 }
