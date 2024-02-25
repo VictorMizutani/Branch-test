@@ -116,3 +116,25 @@ footer {
 footer p {
     color: rgb(64, 64, 64);
 }
+
+/* Estilos da página "Membros" */
+.membro {
+    background-color:rgb(152, 174, 202); 
+    margin: 10px;
+    border-radius: 7px;
+}
+
+.perfil {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.perfil img {
+    height: 200px;
+    width: 200px;
+}
+
+.nome {
+    font-family: sans-serif;
+}
