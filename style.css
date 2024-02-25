@@ -148,4 +148,50 @@ img {
     text-align: justify;
 }
 
+.aval {
+    background-color:rgb(152, 174, 202) ;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7px;
+}
+
+/* Estilo do formuilário */
+h2{
+    text-align: center;
+    font-family: sans-serif;
+    padding: 7px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"], textarea, select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+textarea {
+    height: 100px;
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
 

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../Imagens/logo.png" type="image/x-icon">
+    <title>dinter</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <h2>Formulário de Avaliação - Site de Namoro</h2>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+
+        <label for="idade">Idade:</label>
+        <input type="text" id="idade" name="idade" required>
+
+        <label for="avaliacao">Avaliação:</label>
+        <textarea id="avaliacao" name="avaliacao" required></textarea>
+
+        <label for="recomendacao">Você recomendaria o dinter para seus amigos?</label>
+        <select id="recomendacao" name="recomendacao" required>
+            <option value="">Selecione uma opção</option>
+            <option value="Sim">Sim</option>
+            <option value="Não">Não</option>
+        </select>
+
+        <input type="submit" value="Enviar Avaliação">
+</body>
+</html>
