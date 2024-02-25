@@ -119,6 +119,7 @@ footer p {
 
 /* Estilos da página "Membros" */
 .membro {
+    padding: 7px;
     background-color:rgb(152, 174, 202); 
     margin: 10px;
     border-radius: 7px;
@@ -126,16 +127,25 @@ footer p {
 
 .perfil {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    margin-bottom: 20px;
 }
 
 .perfil img {
-    height: 150px;
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+img {
     width: 150px;
-    padding-right: 7px;
+    height: 150;
+    padding: 5px;
+    margin: 5px;
 }
 
 .nome {
     font-family: sans-serif;
+    font-size: 20px;
+    text-align: justify;
 }
+
+
