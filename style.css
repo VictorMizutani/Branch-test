@@ -1,3 +1,9 @@
+@media  screen and (max-width: 1170) {
+    #mobile_btn {
+        display: block;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -55,13 +61,14 @@ nav ul li a:hover {
 .banner {
     background-image: url('./Imagens/banner.png');
     background-size: cover;
+    height: auto;
     padding: 60px 0;
     color: #000000;
-    text-align: center;
+
 }
 
 .banner h2 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 /* Estilos da Seção Sobre */
